@@ -1,5 +1,11 @@
 # @tailwindash/triangle
 
+## 1.0.2
+
+### Patch Changes
+
+- [`ef627d4`](https://github.com/vnphanquang/tailwindash/commit/ef627d41e0a2a78e0b9882c4e611ea8cf838e9f8) Thanks [@vnphanquang](https://github.com/vnphanquang)! - build with tsup instead of tsc
+
 ## 1.0.1
 
 ### Patch Changes
