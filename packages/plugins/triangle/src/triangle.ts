@@ -24,14 +24,14 @@ const handler: Parameters<typeof plugin>[0] = ({
       // reset
       'border-top-width': '0',
       'border-top-color': 'transparent',
-      'border-left-color': 'transparent',
-      'border-right-color': 'transparent',
 
       // apply
       'border-left-width': 'calc(var(--triangle-s-width, var(--triangle-width, 1rem)) / 2)',
+      'border-left-color': 'transparent',
       'border-right-width': 'calc(var(--triangle-s-width, var(--triangle-width, 1rem)) / 2)',
+      'border-right-color': 'transparent',
       'border-bottom-width': 'var(--triangle-s-height, var(--triangle-height, 0.5rem))',
-      'border-bottom-color': 'transparent transparent var(--triangle-color, currentColor)',
+      'border-bottom-color': 'var(--triangle-color, currentColor)',
     },
     '.triangle-b': {
       '--triangle-width': '1rem',
@@ -47,7 +47,7 @@ const handler: Parameters<typeof plugin>[0] = ({
       'border-right-width': 'calc(var(--triangle-s-width, var(--triangle-width, 1rem)) / 2)',
       'border-right-color': 'transparent',
       'border-top-width': 'var(--triangle-s-height, var(--triangle-height, 0.5rem))',
-      'border-top': 'var(--triangle-color, currentColor)',
+      'border-top-color': 'var(--triangle-color, currentColor)',
     },
     '.triangle-l': {
       '--triangle-width': '0.5rem',
