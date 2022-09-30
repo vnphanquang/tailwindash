@@ -8,5 +8,4 @@ import { triangle } from './triangle';
  * @packageDocumentation
  */
 
-export * from './triangle';
 export default triangle;
