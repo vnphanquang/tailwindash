@@ -1,5 +1,11 @@
 # @tailwindash/triangle
 
+## 1.0.4
+
+### Patch Changes
+
+- [`90864a3`](https://github.com/vnphanquang/tailwindash/commit/90864a3202d8be34f5b164d6ae6ba29d77d9795c) Thanks [@vnphanquang](https://github.com/vnphanquang)! - fix: top and bottom variant error in border color attribute
+
 ## 1.0.3
 
 ### Patch Changes
