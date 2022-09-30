@@ -20,74 +20,124 @@ const handler: Parameters<typeof plugin>[0] = ({
     '.triangle-t': {
       '--triangle-width': '1rem',
       '--triangle-height': '0.5rem',
+
+      // reset
       'border-top-width': '0',
+      'border-top-color': 'transparent',
+      'border-left-color': 'transparent',
+      'border-right-color': 'transparent',
+
+      // apply
       'border-left-width': 'calc(var(--triangle-s-width, var(--triangle-width, 1rem)) / 2)',
       'border-right-width': 'calc(var(--triangle-s-width, var(--triangle-width, 1rem)) / 2)',
       'border-bottom-width': 'var(--triangle-s-height, var(--triangle-height, 0.5rem))',
-      'border-color': 'transparent transparent var(--triangle-color, currentColor)',
+      'border-bottom-color': 'transparent transparent var(--triangle-color, currentColor)',
     },
     '.triangle-b': {
       '--triangle-width': '1rem',
       '--triangle-height': '0.5rem',
+
+      // reset
       'border-bottom-width': '0',
+      'border-bottom-color': 'transparent',
+
+      // apply
       'border-left-width': 'calc(var(--triangle-s-width, var(--triangle-width, 1rem)) / 2)',
+      'border-left-color': 'transparent',
       'border-right-width': 'calc(var(--triangle-s-width, var(--triangle-width, 1rem)) / 2)',
+      'border-right-color': 'transparent',
       'border-top-width': 'var(--triangle-s-height, var(--triangle-height, 0.5rem))',
-      'border-color': 'var(--triangle-color, currentColor) transparent transparent',
+      'border-top': 'var(--triangle-color, currentColor)',
     },
     '.triangle-l': {
       '--triangle-width': '0.5rem',
       '--triangle-height': '1rem',
+
+      // reset
       'border-left-width': '0',
+      'border-left-color': 'transparent',
+
+      // apply
       'border-top-width': 'calc(var(--triangle-s-height, var(--triangle-height, 1rem)) / 2)',
+      'border-top-color': 'transparent',
       'border-bottom-width': 'calc(var(--triangle-s-height, var(--triangle-height, 1rem)) / 2)',
+      'border-bottom-color': 'transparent',
       'border-right-width': 'var(--triangle-s-width, var(--triangle-width, 0.5rem))',
-      'border-color': 'transparent var(--triangle-color, currentColor) transparent transparent',
+      'border-right-color': 'var(--triangle-color, currentColor)',
     },
     '.triangle-r': {
       '--triangle-width': '0.5rem',
       '--triangle-height': '1rem',
+
+      // reset
       'border-right-width': '0',
+      'border-right-color': 'transparent',
+
+      // apply
       'border-top-width': 'calc(var(--triangle-s-height, var(--triangle-height, 1rem)) / 2)',
+      'border-top-color': 'transparent',
       'border-bottom-width': 'calc(var(--triangle-s-height, var(--triangle-height, 1rem)) / 2)',
+      'border-bottom-color': 'transparent',
       'border-left-width': 'var(--triangle-s-width, var(--triangle-width, 0.5rem))',
-      'border-color': 'transparent transparent transparent var(--triangle-color, currentColor)',
+      'border-left-color': 'var(--triangle-color, currentColor)',
     },
     '.triangle-tl': {
       '--triangle-width': '1rem',
       '--triangle-height': '1rem',
+
+      // reset
       'border-bottom-width': '0',
       'border-left-width': '0',
+      'border-bottom-color': 'transparent',
+      'border-left-color': 'transparent',
+
+      // apply
       'border-right-width': 'var(--triangle-s-height, var(--triangle-height, 1rem))',
+      'border-right-color': 'transparent',
       'border-top-width': 'var(--triangle-s-width, var(--triangle-width, 1rem))',
-      'border-color': 'var(--triangle-color, currentColor) transparent transparent transparent',
+      'border-top-color': 'var(--triangle-color, currentColor)',
     },
     '.triangle-tr': {
       '--triangle-width': '1rem',
       '--triangle-height': '1rem',
+
+      // reset
       'border-bottom-width': '0',
       'border-right-width': '0',
+
+      // apply
       'border-left-width': 'var(--triangle-s-height, var(--triangle-height, 1rem))',
+      'border-left-color': 'transparent',
       'border-top-width': 'var(--triangle-s-width, var(--triangle-width, 1rem))',
-      'border-color': 'var(--triangle-color, currentColor) transparent transparent transparent',
+      'border-top-color': 'var(--triangle-color, currentColor)',
     },
     '.triangle-bl': {
       '--triangle-width': '1rem',
       '--triangle-height': '1rem',
+
+      // reset
       'border-top-width': '0',
       'border-left-width': '0',
+
+      // apply
       'border-right-width': 'var(--triangle-s-height, var(--triangle-height, 1rem))',
+      'border-right-color': 'transparent',
       'border-bottom-width': 'var(--triangle-s-width, var(--triangle-width, 1rem))',
-      'border-color': 'transparent transparent var(--triangle-color, currentColor) transparent',
+      'border-bottom-color': 'var(--triangle-color, currentColor)',
     },
     '.triangle-br': {
       '--triangle-width': '1rem',
       '--triangle-height': '1rem',
+
+      // rest
       'border-top-width': '0',
       'border-right-width': '0',
+
+      // apply
       'border-left-width': 'var(--triangle-s-height, var(--triangle-height, 1rem))',
+      'border-left-color': 'transparent',
       'border-bottom-width': 'var(--triangle-s-width, var(--triangle-width, 1rem))',
-      'border-color': 'transparent transparent var(--triangle-color, currentColor) transparent',
+      'border-bottom-color': 'var(--triangle-color, currentColor)',
     },
   });
   matchUtilities(
