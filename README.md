@@ -57,8 +57,8 @@ pnpm turbo
 [github.contributing]: ./CONTRIBUTING.md
 [github.issues]: https://github.com/vnphanquang/tailwindash/issues?q=
 
-[github.triangle]: https://github.com/vnphanquang/tailwindash/tree/main/packages/actions/triangle
-[github.triangle.changelog]: https://github.com/vnphanquang/tailwindash/blob/main/packages/actions/triangle/CHANGELOG.md
+[github.triangle]: https://github.com/vnphanquang/tailwindash/tree/main/packages/plugins/triangle
+[github.triangle.changelog]: https://github.com/vnphanquang/tailwindash/blob/main/packages/plugins/triangle/CHANGELOG.md
 
 <!-- heading badge -->
 [license.badge]: https://img.shields.io/badge/license-MIT-blue.svg
