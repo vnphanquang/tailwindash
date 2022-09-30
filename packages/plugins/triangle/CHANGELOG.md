@@ -1,5 +1,11 @@
 # @tailwindash/triangle
 
+## 1.0.3
+
+### Patch Changes
+
+- [`b92afc8`](https://github.com/vnphanquang/tailwindash/commit/b92afc8f8b1372bdef55a3ce63d7ff3df683e630) Thanks [@vnphanquang](https://github.com/vnphanquang)! - fix default module export (has to use `export = ` in typescript)
+
 ## 1.0.2
 
 ### Patch Changes
