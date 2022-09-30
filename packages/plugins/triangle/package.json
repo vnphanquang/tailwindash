@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/vnphanquang/tailwindash#readme",
   "devDependencies": {
+    "@types/node": "^18.7.23",
     "@vnphanquang/eslint-config": "^1.1.2",
     "@vnphanquang/prettierrc": "^1.0.0",
     "eslint": "^8.24.0",
