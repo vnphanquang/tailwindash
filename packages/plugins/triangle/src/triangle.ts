@@ -160,7 +160,3 @@ const config: Parameters<typeof plugin>[1] = {
 };
 
 export const triangle = plugin(handler, config);
-
-plugin.withOptions;
-
-export default triangle;
