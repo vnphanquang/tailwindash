@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "tsup",
     "lint": "eslint .",
     "format": "prettier . --check --plugin-search-dir=. \"./**/*.{ts,js,cjs,json,svelte}\""
   },
