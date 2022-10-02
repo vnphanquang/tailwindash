@@ -1,5 +1,11 @@
 # @tailwindash/triangle
 
+## 1.0.5
+
+### Patch Changes
+
+- [`729e94c`](https://github.com/vnphanquang/tailwindash/commit/729e94c81d678370cd175c390088551d085ef957) Thanks [@vnphanquang](https://github.com/vnphanquang)! - bootstrap README.md
+
 ## 1.0.4
 
 ### Patch Changes
